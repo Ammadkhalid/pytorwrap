@@ -161,3 +161,6 @@ class Tor:
         while self.verifyIP(old):
             sleep(delay)
             old = requests.get('http://icanhazip.com').text
+
+            # do increment of 3
+            delay += 3
