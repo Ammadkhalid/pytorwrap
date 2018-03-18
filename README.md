@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 # Python 3 PytorWrap Module used to apply tor as proxy and renew IP.
 ## You have install and configure TOR
+=======
+# Python3 PyTorWrap Module
+
+> You have install and configure TOR on your PC to make this work
+
+Python3 module to wrap the function to handle requests from TOR proxy and renew IP periodically
+
+>>>>>>> e7342079c91c21f3a0aa546b1b60c1b03c486fd8
 After Installing TOR then active the tor...
 will write soon about this later
 

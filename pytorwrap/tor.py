@@ -49,10 +49,10 @@ class Tor:
         try:
             controller.authenticate(password=password)
         except stem.connection.PasswordAuthFailed as e:
-            raise InvalidPassword('Cannot able to Authenticate')
+            raise InvalidPassword('Unable to Authenticate')
 
         except stem.connection.AuthenticationFailure as exc:
-            raise InvalidAuth('Cannot able to Authenticate')
+            raise InvalidAuth('Unable to Authenticate')
 
         controller.signal(stem.Signal.NEWNYM)
 
